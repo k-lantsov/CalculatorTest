@@ -53,6 +53,7 @@ class CalculatorTest {
     @DisplayName("Division by zero")
     @Test
     void testIntegerDivision_WhenDividendIsDividedByZero_ShouldThrowArithmeticException() {
+        System.out.println("Running Division by zero");
         //Arrange
         int dividend = 4;
         int divisor = 0;
